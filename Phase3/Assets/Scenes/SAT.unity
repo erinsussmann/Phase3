@@ -839,6 +839,8 @@ GameObject:
   - component: {fileID: 1939191738}
   - component: {fileID: 1939191732}
   - component: {fileID: 1939191675}
+  - component: {fileID: 1939191740}
+  - component: {fileID: 1939191739}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -848,7 +850,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1939191675
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -901,11 +903,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 626.3787, y: -97.778755}
+  scrollPos: {x: 601.1947, y: -11.643082}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.54999995
+  zoom: 0.43000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -913,7 +915,19 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1939191676}
+  - {fileID: 1939191717}
+  - {fileID: 1939191710}
+  - {fileID: 1939191731}
+  - {fileID: 1939191709}
+  - {fileID: 1939191729}
+  - {fileID: 1939191708}
+  - {fileID: 1939191727}
+  - {fileID: 1939191707}
+  - {fileID: 1939191725}
+  - {fileID: 1939191687}
+  - {fileID: 1939191737}
+  - {fileID: 1939191748}
+  - {fileID: 1939191714}
   selectedCommands: []
   variables:
   - {fileID: 1939191682}
@@ -2627,6 +2641,44 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &1939191739
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 1
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: commCollege
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1939191740
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 107
+  indentLevel: 1
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: welc2Uhart
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &1939191741
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2712,7 +2764,7 @@ MonoBehaviour:
   itemId: 101
   indentLevel: 1
   storyText: You're SAT score was high enough to get into the University of Hartford
-    and you're really excited to start college.
+    and you're really excited to start college!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2852,7 +2904,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -70.25001
-    y: 627.2725
+    y: 626.2725
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2865,6 +2917,8 @@ MonoBehaviour:
   - {fileID: 1939191746}
   - {fileID: 1939191745}
   - {fileID: 1939191744}
+  - {fileID: 1939191740}
   - {fileID: 1939191743}
   - {fileID: 1939191742}
   - {fileID: 1939191741}
+  - {fileID: 1939191739}

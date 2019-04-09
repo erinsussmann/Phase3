@@ -8,10 +8,31 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: e407ac96063d29f44b40d0d1e9ab0072
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/SAT.unity
     guid: 827887b051fa280408965b9882c8ff99
+  - enabled: 1
+    path: Assets/Scenes/Registration.unity
+    guid: 6484e49318463cc47a4a0410db0b4e55
+  - enabled: 1
+    path: Assets/Scenes/commCollege.unity
+    guid: ed5698d69e0116c46b8c38d5e5af5654
+  - enabled: 1
+    path: Assets/Scenes/engMatchPT.unity
+    guid: 8e618f3fbd1264348ad91c9abcf4e46f
+  - enabled: 1
+    path: Assets/Scenes/Freshman.unity
+    guid: 55a4ab4576e9c76489a7becb3ac2eb75
+  - enabled: 1
+    path: Assets/Scenes/LoginAndReg.unity
+    guid: a13885f9db910044bbdecde96d9b0d3f
+  - enabled: 1
+    path: Assets/Scenes/Sophomore.unity
+    guid: eb8640956f83eb643baff18df11ba2f4
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 98d4a0ae6acf5fc46b13ac01d5cd81ae
   m_configObjects: {}

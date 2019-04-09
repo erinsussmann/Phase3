@@ -979,21 +979,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 380.50458, y: -684.4577}
+  scrollPos: {x: 547.1223, y: -532.81476}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 365
-  zoom: 0.69999987
+  zoom: 0.46000004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1939191816}
-  selectedCommands:
-  - {fileID: 1939191807}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1939191682}
   - {fileID: 1939191680}
@@ -1213,7 +1211,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -89.26068
     y: 473.2994
-    width: 157.61906
+    width: 154.34781
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2603,7 +2601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.69778
     y: 998.9474
-    width: 144.28574
+    width: 142.75362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4316,7 +4314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -77.95943
     y: 566.5537
-    width: 145.23811
+    width: 144.20288
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4723,7 +4721,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1939191807
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5140,7 +5138,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1939191820
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5161,7 +5159,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1939191821
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

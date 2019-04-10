@@ -294,19 +294,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 79.9449, y: 161.56853}
+  scrollPos: {x: -134.26454, y: 132.21759}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4900001
+  zoom: 0.64
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 13703708}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 13703753}
@@ -375,7 +374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.55167
     y: 84.394356
-    width: 128.91156
+    width: 135.41667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -553,7 +552,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 544.5337
     y: 97.79468
-    width: 137.07481
+    width: 143.75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -920,7 +919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 749.5572
     y: 56.854782
-    width: 139.7959
+    width: 148.95834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1327,7 +1326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.0574
     y: 224.00911
-    width: 127.55101
+    width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1828,7 +1827,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.4444
     y: -24.996452
-    width: 127.55101
+    width: 134.375
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2996,7 +2995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.99615
     y: 261.21036
-    width: 120
+    width: 123.958336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5883,7 +5882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 617031706}
+  selectedFlowchart: {fileID: 13703709}
 --- !u!4 &686773508
 Transform:
   m_ObjectHideFlags: 1

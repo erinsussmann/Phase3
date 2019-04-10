@@ -6145,7 +6145,6 @@ GameObject:
   - component: {fileID: 1939191687}
   - component: {fileID: 1939191690}
   - component: {fileID: 1939191689}
-  - component: {fileID: 1939191688}
   - component: {fileID: 1939191695}
   - component: {fileID: 1939191694}
   - component: {fileID: 1939191693}
@@ -6603,24 +6602,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1939191688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 45
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 1310956413}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
 --- !u!114 &1939191689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6667,7 +6648,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1939191688}
+  - {fileID: 1939191681}
   - {fileID: 1939191691}
   - {fileID: 1939191693}
   - {fileID: 1939191692}

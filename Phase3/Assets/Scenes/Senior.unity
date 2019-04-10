@@ -5549,6 +5549,12 @@ GameObject:
   - component: {fileID: 1939191753}
   - component: {fileID: 1939191754}
   - component: {fileID: 1939191746}
+  - component: {fileID: 1939191757}
+  - component: {fileID: 1939191756}
+  - component: {fileID: 1939191759}
+  - component: {fileID: 1939191758}
+  - component: {fileID: 1939191761}
+  - component: {fileID: 1939191760}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5585,7 +5591,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -88.48599
-    y: 66.58069
+    y: 65.35336
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5596,7 +5602,10 @@ MonoBehaviour:
   eventHandler: {fileID: 1939191675}
   commandList:
   - {fileID: 1939191683}
+  - {fileID: 1939191759}
+  - {fileID: 1939191761}
   - {fileID: 1939191681}
+  - {fileID: 1939191758}
   - {fileID: 1939191685}
   - {fileID: 1939191687}
 --- !u!114 &1939191677
@@ -5612,25 +5621,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 234.99419, y: 54.164692}
+  scrollPos: {x: 146.91138, y: 10.284935}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 297
-  zoom: 0.42478254
+  blockViewHeight: 619
+  zoom: 0.81478226
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1939191750}
-  selectedCommands:
-  - {fileID: 1939191746}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1939191682}
   - {fileID: 1939191680}
   - {fileID: 1939191679}
+  - {fileID: 1939191756}
+  - {fileID: 1939191760}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -5699,8 +5708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: It's the first day of your last year at Hartford! Are you ready to start
-    your senior year?
+  storyText: 'Current GPA: {$GPA}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5897,7 +5905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 199.52737
     y: 65.314835
-    width: 130.04095
+    width: 122.82109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6125,7 +6133,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.5742
     y: 134.09555
-    width: 125.332664
+    width: 120.36645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6690,7 +6698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 129.30005
     y: 266.91727
-    width: 127.686806
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7395,6 +7403,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1939191749}
+  - {fileID: 1939191757}
   - {fileID: 1939191754}
   - {fileID: 1939191746}
 --- !u!114 &1939191751
@@ -7523,6 +7532,112 @@ MonoBehaviour:
   - {fileID: 1939191752}
   - {fileID: 1939191751}
   - {fileID: 1939191748}
+--- !u!114 &1939191756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705fa1ac97df74e3a84ff952ffd923f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: GPA
+  value: 0
+--- !u!114 &1939191757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  key: grade
+  variable: {fileID: 0}
+--- !u!114 &1939191758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  storyText: It's the first day of your last year at Hartford! Are you ready to start
+    your senior year?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1939191759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  key: grade
+  variable: {fileID: 1939191756}
+--- !u!114 &1939191760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: money
+  value: 0
+--- !u!114 &1939191761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  key: fin
+  variable: {fileID: 0}
 --- !u!114 &1939191764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7587,7 +7702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 289.6644
     y: 453.48572
-    width: 127.686806
+    width: 121.18466
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7786,7 +7901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 427.7643
     y: 460.30594
-    width: 122.978516
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

@@ -1,21 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class database : MonoBehaviour
 {
     public static string user = "", name ="";
     private string password = "", rePass = "", message="";
+    private long width = Screen.width / 2, height = Screen.height/2;
+    private int BoxW = 200, BoxH = 300;
+    Texture tex;
+    
+
 
     private bool registerFunc = false;
 
     private void OnGUI()
     {
         if (message != "")
+        {
+            GUILayout.BeginArea(new Rect(width - (BoxW / 2), height + (BoxH / 2), BoxW, BoxH));
             GUILayout.Box(message);
+            GUILayout.EndArea();
+        }
 
         if (registerFunc)
         {
+            GUILayout.BeginArea(new Rect(width - (BoxW / 2), height - (BoxH / 2), BoxW, BoxH));
             GUILayout.Label("Username");
             user = GUILayout.TextField(user);
             GUILayout.Label("Name");
@@ -27,7 +38,10 @@ public class database : MonoBehaviour
 
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Back"))
-                registerFunc = false;
+            {
+            registerFunc = false;
+            message = "";
+            }
 
             if (GUILayout.Button("Register"))
             {
@@ -48,10 +62,12 @@ public class database : MonoBehaviour
                     message += "Your Passwords do not match \n";
             }
             GUILayout.EndHorizontal();
+            GUILayout.EndArea();
         }
 
         else
         {
+            GUILayout.BeginArea(new Rect(width - (BoxW / 2), height - (BoxH / 2), BoxW, BoxH));
             GUILayout.Label("User:");
             user = GUILayout.TextField(user);
             GUILayout.Label("Password:");
@@ -86,9 +102,10 @@ public class database : MonoBehaviour
 
 
             GUILayout.EndHorizontal();
+            GUILayout.EndArea();
 
 
-
+            
         }
     }
 
@@ -99,13 +116,13 @@ public class database : MonoBehaviour
         {
             if (w.text == "login-SUCCESS")
             {
-
+                SceneManager.LoadScene(7);
             }
             else
             {
                 message += w.text;
             }
-
+            
         }
         else
         {

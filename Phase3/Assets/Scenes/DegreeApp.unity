@@ -397,7 +397,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648863764}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.46, y: -0.65, z: 0}
+  m_LocalPosition: {x: 2.14, y: 2.13, z: 0}
   m_LocalScale: {x: 0.8939552, y: 0.8630006, z: 1}
   m_Children: []
   m_Father: {fileID: 735889822}
@@ -1417,8 +1417,11 @@ GameObject:
   - component: {fileID: 1939191699}
   - component: {fileID: 1939191702}
   - component: {fileID: 1939191695}
+  - component: {fileID: 1939191694}
   - component: {fileID: 1939191693}
+  - component: {fileID: 1939191692}
   - component: {fileID: 1939191691}
+  - component: {fileID: 1939191683}
   - component: {fileID: 1939191681}
   - component: {fileID: 1939191703}
   - component: {fileID: 1939191708}
@@ -1430,9 +1433,6 @@ GameObject:
   - component: {fileID: 1939191711}
   - component: {fileID: 1939191710}
   - component: {fileID: 1939191712}
-  - component: {fileID: 1939191694}
-  - component: {fileID: 1939191692}
-  - component: {fileID: 1939191683}
   - component: {fileID: 1939191713}
   m_Layer: 0
   m_Name: Flowchart
@@ -1494,11 +1494,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 112.97442, y: 65.83338}
+  scrollPos: {x: 134.25221, y: 78.03484}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1507,7 +1507,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1939191702}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1939191713}
   variables:
   - {fileID: 1939191682}
   - {fileID: 1939191680}
@@ -1604,12 +1605,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939191674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1939191692}
-  clickableObject: {fileID: 1958110368}
-  waitFrames: 1
+  itemId: 25
+  indentLevel: 1
+  storyText: WOOT WOOT SETTINGS
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1939191684
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1830,22 +1843,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939191674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 687.24005
-    y: 54.80088
-    width: 121.42854
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 36
-  blockName: Instructions
+  itemId: 23
+  indentLevel: 1
+  storyText: You suck
   description: 
-  eventHandler: {fileID: 1939191683}
-  commandList: []
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1939191693
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1919,11 +1934,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939191674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 35
+  itemId: 21
   indentLevel: 1
+  storyText: YAY YOU NOW PLAY GAME
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1939191695
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2257,9 +2285,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -0.40811837
+    x: 1.0844183
     y: 124.90074
-    width: 131.90472
+    width: 125.62186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2269,13 +2297,15 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1939191695}
-  - {fileID: 1939191713}
+  - {fileID: 1939191694}
   - {fileID: 1939191712}
   - {fileID: 1939191693}
-  - {fileID: 1939191694}
+  - {fileID: 1939191692}
   - {fileID: 1939191691}
+  - {fileID: 1939191683}
   - {fileID: 1939191703}
   - {fileID: 1939191681}
+  - {fileID: 1939191713}
 --- !u!114 &1939191703
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2471,20 +2501,25 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1939191713
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939191674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0000066e72e484959b6a314a95d0dcd2, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 37
-  indentLevel: 1
-  resetCommands: 1
-  resetVariables: 1
+  itemId: 34
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1958110366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,7 +2547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958110366}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.29, y: 8.67, z: 0}
+  m_LocalPosition: {x: -1.7470875, y: 2.2217116, z: 0}
   m_LocalScale: {x: 1.43492, y: 1.37202, z: 1}
   m_Children: []
   m_Father: {fileID: 735889822}

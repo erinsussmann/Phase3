@@ -307,11 +307,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -208.27141, y: -125.98404}
+  scrollPos: {x: -117.27062, y: 82.276794}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6399999
+  zoom: 0.48999983
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -388,7 +388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.55167
     y: 84.394356
-    width: 135.41667
+    width: 128.91159
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -566,7 +566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 544.5337
     y: 97.79468
-    width: 143.75
+    width: 137.07486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -934,7 +934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 914.61127
     y: 31.03595
-    width: 148.95834
+    width: 139.79594
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1344,7 +1344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.0574
     y: 224.00911
-    width: 133.33334
+    width: 127.55104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1845,7 +1845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.4444
     y: -24.996452
-    width: 134.375
+    width: 127.55104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 972.77637
+    x: 974.8172
     y: 499.8733
     width: 120
     height: 40
@@ -3015,7 +3015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.99615
     y: 261.21036
-    width: 123.958336
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6350,7 +6350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 617031706}
+  selectedFlowchart: {fileID: 13703709}
 --- !u!4 &686773508
 Transform:
   m_ObjectHideFlags: 1
@@ -6895,7 +6895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1470228417
 RectTransform:
   m_ObjectHideFlags: 0

@@ -231,6 +231,11 @@ GameObject:
   - component: {fileID: 13703816}
   - component: {fileID: 13703815}
   - component: {fileID: 13703814}
+  - component: {fileID: 13703819}
+  - component: {fileID: 13703818}
+  - component: {fileID: 13703822}
+  - component: {fileID: 13703821}
+  - component: {fileID: 13703820}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -302,11 +307,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -53.61384, y: 46.26845}
+  scrollPos: {x: -208.27141, y: -125.98404}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.90999967
+  zoom: 0.6399999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -314,7 +319,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 13703708}
+  - {fileID: 13703775}
   selectedCommands: []
   variables:
   - {fileID: 13703753}
@@ -383,7 +388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.55167
     y: 84.394356
-    width: 129.12091
+    width: 135.41667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -561,7 +566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 544.5337
     y: 97.79468
-    width: 137.91211
+    width: 143.75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -689,8 +694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 364.79938
-    y: 130.8452
+    x: 351.68463
+    y: 122.64848
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -701,6 +706,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 13703735}
+  - {fileID: 13703822}
   - {fileID: 13703772}
   - {fileID: 13703771}
   - {fileID: 13703734}
@@ -743,8 +749,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 352.35425
-    y: 11.217269
+    x: 351.08844
+    y: 12.483092
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -898,8 +904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 712.74396
-    y: 170.52304
+    x: 676.0183
+    y: 171.24277
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -926,9 +932,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 749.5572
-    y: 56.854782
-    width: 140.10992
+    x: 914.61127
+    y: 31.03595
+    width: 148.95834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -938,7 +944,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 13703731}
+  - {fileID: 13703819}
   - {fileID: 13703745}
+  - {fileID: 13703818}
   - {fileID: 13703740}
 --- !u!114 &13703734
 MonoBehaviour:
@@ -1097,7 +1105,7 @@ MonoBehaviour:
   itemId: 39
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 13703798}
+  targetBlock: {fileID: 13703749}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -1202,7 +1210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: You got a new set of of clothes for the semester.
+  storyText: You bought a new set of clothes for the semester. It cost you $100.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1229,7 +1237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: You bough the books that you neeeded for class.
+  storyText: Your mom bought the books that you needed for class. You didn't have
+    to spend any of your own money!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1335,7 +1344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 956.0574
     y: 224.00911
-    width: 126.190506
+    width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1836,7 +1845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.4444
     y: -24.996452
-    width: 126.9231
+    width: 134.375
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1998,8 +2007,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 986.83887
-    y: 498.3108
+    x: 972.77637
+    y: 499.8733
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2289,6 +2298,7 @@ MonoBehaviour:
   - {fileID: 13703782}
   - {fileID: 13703781}
   - {fileID: 13703780}
+  - {fileID: 13703820}
   - {fileID: 13703779}
   - {fileID: 13703778}
   - {fileID: 13703763}
@@ -2524,6 +2534,7 @@ MonoBehaviour:
   - {fileID: 13703788}
   - {fileID: 13703787}
   - {fileID: 13703790}
+  - {fileID: 13703821}
   - {fileID: 13703785}
   - {fileID: 13703786}
   - {fileID: 13703773}
@@ -2729,8 +2740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1007.3357
-    y: 94.743515
+    x: 828.0681
+    y: 158.15819
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3004,7 +3015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.99615
     y: 261.21036
-    width: 120
+    width: 123.958336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3431,6 +3442,147 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &13703818
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 298206160}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &13703819
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 298206160}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 81255b66f941e114ba7a86800f46cab8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 477946435}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &13703820
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 1
+  storyText: Your wellness increased by 5 points.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13703821
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 1
+  storyText: 10 points was added to your wellness.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13703822
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  storyText: Your GPA dropped 0.5 points.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &94640809
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,6 +4030,57 @@ RectTransform:
   m_AnchoredPosition: {x: 43, y: 108}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &298206158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298206159}
+  - component: {fileID: 298206160}
+  m_Layer: 0
+  m_Name: mom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &298206159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298206158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.090717, y: 0.17585227, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 899067025}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &298206160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298206158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Mom
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 81255b66f941e114ba7a86800f46cab8, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &349448814
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,7 +6350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 13703709}
+  selectedFlowchart: {fileID: 617031706}
 --- !u!4 &686773508
 Transform:
   m_ObjectHideFlags: 1
@@ -6236,6 +6439,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 204159554}
+  - {fileID: 298206159}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

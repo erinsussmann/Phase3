@@ -1506,7 +1506,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1939191702}
+  - {fileID: 1939191708}
   selectedCommands: []
   variables:
   - {fileID: 1939191682}
@@ -1624,8 +1624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 231.9565
-    y: 28.302261
+    x: 214.81361
+    y: 11.159409
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  duration: 4
+  duration: 1
   fadeOut: 1
   targetView: {fileID: 1400643071}
   waitUntilFinished: 1
@@ -1687,8 +1687,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 232.18254
-    y: 140.62772
+    x: 252.18257
+    y: 186.342
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1744,8 +1744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 234.23056
-    y: 84.26336
+    x: 241.37341
+    y: 98.54905
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2257,8 +2257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -0.40811837
-    y: 124.90074
+    x: 3.877594
+    y: 133.47218
     width: 131.90472
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

@@ -8,32 +8,61 @@ public class database : MonoBehaviour
     public static string user = "", name ="";
     private string password = "", rePass = "", message="";
     private long width = Screen.width / 2, height = Screen.height/2;
-    private int BoxW = 200, BoxH = 300;
+    private int BoxW = 400, BoxH = 800;
     Texture tex;
-    
+
+ 
+
 
 
     private bool registerFunc = false;
 
     private void OnGUI()
     {
+        GUIStyle myStyle = new GUIStyle(GUI.skin.label);
+        myStyle.fontSize = 35;
+
+        GUIStyle myStyle2 = new GUIStyle(GUI.skin.label);
+        myStyle2.fontSize = 72;
+
+        GUI.skin.textField.fontSize = 30;
+
+        GUI.skin.button.fontSize = 30;
+
+        GUI.skin.box.fontSize = 30;
+
+
+        myStyle.normal.textColor = Color.black;
+
+        myStyle2.normal.textColor = Color.black;
+
+        myStyle2.alignment = TextAnchor.UpperCenter;
+
+        GUIStyle myBox = new GUIStyle(GUI.skin.box);
+        myBox.alignment = TextAnchor.UpperCenter;
+
+
         if (message != "")
         {
-            GUILayout.BeginArea(new Rect(width - (BoxW / 2), height + (BoxH / 2), BoxW, BoxH));
-            GUILayout.Box(message);
+            GUILayout.BeginArea(new Rect(width - (BoxW / 2), 950, BoxW, BoxH));
+            GUILayout.Box(message, myBox);
             GUILayout.EndArea();
         }
 
         if (registerFunc)
         {
             GUILayout.BeginArea(new Rect(width - (BoxW / 2), height - (BoxH / 2), BoxW, BoxH));
-            GUILayout.Label("Username");
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("Registration",myStyle2);
+            GUILayout.Label("");
+            GUILayout.Label("Username", myStyle);
             user = GUILayout.TextField(user);
-            GUILayout.Label("Name");
+            GUILayout.Label("Name", myStyle);
             name = GUILayout.TextField(name);
-            GUILayout.Label("Password");
+            GUILayout.Label("Password", myStyle);
             password = GUILayout.PasswordField(password, "*"[0]);
-            GUILayout.Label("Re-enter Password");
+            GUILayout.Label("Re-enter Password", myStyle);
             rePass = GUILayout.PasswordField(rePass, "*"[0]);
 
             GUILayout.BeginHorizontal();
@@ -68,9 +97,12 @@ public class database : MonoBehaviour
         else
         {
             GUILayout.BeginArea(new Rect(width - (BoxW / 2), height - (BoxH / 2), BoxW, BoxH));
-            GUILayout.Label("User:");
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("Login", myStyle2);
+            GUILayout.Label("User:", myStyle);
             user = GUILayout.TextField(user);
-            GUILayout.Label("Password:");
+            GUILayout.Label("Password:", myStyle);
             password = GUILayout.PasswordField(password, "*"[0]);
 
             GUILayout.BeginHorizontal();
@@ -136,6 +168,7 @@ public class database : MonoBehaviour
         if(w.error == null)
         {
             message += w.text;
+			SceneManager.LoadScene(7);
         }
         else
         {

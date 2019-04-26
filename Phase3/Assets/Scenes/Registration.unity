@@ -896,11 +896,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 396.01935, y: -255.85918}
+  scrollPos: {x: 295.54166, y: -156.48175}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.83499944
+  zoom: 0.8949994
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -908,8 +908,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1939191737}
-  selectedCommands: []
+  - {fileID: 1939191704}
+  selectedCommands:
+  - {fileID: 1939191699}
   variables:
   - {fileID: 1939191682}
   - {fileID: 1939191680}
@@ -1457,7 +1458,7 @@ MonoBehaviour:
     floatVal: 0
   stringData:
     stringRef: {fileID: 0}
-    stringVal: Musical performance
+    stringVal: Music performance
   animatorData:
     animatorRef: {fileID: 0}
     animatorVal: {fileID: 0}
@@ -1766,7 +1767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 326.92593
     y: 202.20303
-    width: 154.5909
+    width: 155.02802
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1847,7 +1848,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -210.1395
     y: 220.28485
-    width: 151.39728
+    width: 151.30362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2764,8 +2765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -49.61387
-    y: 550.6779
+    x: -59.194714
+    y: 545.8874
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

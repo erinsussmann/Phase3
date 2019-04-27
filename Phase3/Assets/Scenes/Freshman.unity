@@ -780,6 +780,10 @@ GameObject:
   - component: {fileID: 13704357}
   - component: {fileID: 13704356}
   - component: {fileID: 13704355}
+  - component: {fileID: 13704370}
+  - component: {fileID: 13704369}
+  - component: {fileID: 13704368}
+  - component: {fileID: 13704367}
   m_Layer: 0
   m_Name: Main_CS
   m_TagString: Untagged
@@ -803,7 +807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1180.4341
     y: 381.02933
-    width: 135.7143
+    width: 129.82462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -878,11 +882,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 197.98012, y: 161.18025}
+  scrollPos: {x: -2736.584, y: -665.73206}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 475
-  zoom: 0.69999987
+  zoom: 0.75999963
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -890,9 +894,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 13703708}
+  - {fileID: 13704334}
   selectedCommands:
-  - {fileID: 13704361}
+  - {fileID: 13704335}
   variables:
   - {fileID: 13703753}
   - {fileID: 13703758}
@@ -962,7 +966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 126.69446
     y: 72.755
-    width: 135.7143
+    width: 129.82462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1140,7 +1144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 560.0508
     y: 84.00157
-    width: 146.19049
+    width: 141.22812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1508,7 +1512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 721.57837
     y: -1.8281784
-    width: 148.09525
+    width: 145.61409
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1918,7 +1922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1017.21265
     y: 71.5027
-    width: 134.76192
+    width: 129.82462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2419,7 +2423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 504.89264
     y: -7.755068
-    width: 137.61906
+    width: 132.45618
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3588,7 +3592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.99615
     y: 261.21036
-    width: 124.28573
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3720,7 +3724,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1194.7151
     y: 483.55487
-    width: 146.19049
+    width: 141.22812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4523,7 +4527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1022.5414
     y: 428.36142
-    width: 134.76192
+    width: 133.33337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5909,7 +5913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 690.29474
     y: 526.1976
-    width: 152.85716
+    width: 150.87726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6222,7 +6226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1350.183
     y: 636.05304
-    width: 134.76192
+    width: 129.82462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6767,7 +6771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1817.481
     y: 45.88081
-    width: 165.23811
+    width: 157.8948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6824,7 +6828,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1779.9471
     y: 168.24333
-    width: 166.19049
+    width: 160.52637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7867,7 +7871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1797.2719
     y: 247.39587
-    width: 140.4762
+    width: 133.33337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8329,7 +8333,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1534.5492
     y: 556.3148
-    width: 169.04764
+    width: 159.64919
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8716,7 +8720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1385.6404
     y: 982.00604
-    width: 142.38097
+    width: 136.84216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9202,7 +9206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1198.7235
     y: 938.5044
-    width: 169.04764
+    width: 159.64919
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9303,7 +9307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1528.697
     y: 881.6088
-    width: 127.14287
+    width: 125.43864
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9333,7 +9337,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1206.5114
     y: 873.77545
-    width: 150.00002
+    width: 144.7369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9888,7 +9892,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1516.3569
     y: 754.6318
-    width: 161.42859
+    width: 152.63164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10945,7 +10949,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1166.0852
     y: 750.4096
-    width: 165.23811
+    width: 157.8948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11002,7 +11006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1971.1588
     y: 376.81995
-    width: 169.04764
+    width: 159.64919
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11410,7 +11414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1648.8569
     y: 384.31927
-    width: 205.23811
+    width: 196.4913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11796,7 +11800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1841.2355
     y: 448.2174
-    width: 150.9524
+    width: 144.7369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12138,7 +12142,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1960.3824
     y: 674.57245
-    width: 176.66669
+    width: 166.66673
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12193,7 +12197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1891.1444
     y: 764.65625
-    width: 139.52383
+    width: 133.33337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12297,7 +12301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1962.6643
     y: 966.61444
-    width: 220.47621
+    width: 210.5264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12400,9 +12404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2255.467
-    y: 75.62224
-    width: 135.7143
+    x: 2219.5295
+    y: 72.49724
+    width: 129.82462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12456,9 +12460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2365.2678
-    y: -11.778071
-    width: 130.9524
+    x: 2404.3303
+    y: 8.831113
+    width: 128.94742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12470,6 +12474,8 @@ MonoBehaviour:
   - {fileID: 13704158}
   - {fileID: 13704157}
   - {fileID: 13704156}
+  - {fileID: 13704370}
+  - {fileID: 13704369}
   - {fileID: 13704090}
 --- !u!114 &13704090
 MonoBehaviour:
@@ -12506,9 +12512,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2513.2876
-    y: -16.04767
-    width: 193.80954
+    x: 2542.975
+    y: -42.610176
+    width: 187.71938
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12560,9 +12566,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2717.0696
-    y: -4.4133453
-    width: 180.47621
+    x: 2740.5994
+    y: 0.2925396
+    width: 171.9299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12620,7 +12626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2913.6455
     y: 53.44973
-    width: 146.19049
+    width: 141.22812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12769,7 +12775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3073.8145
     y: 279.83896
-    width: 134.76192
+    width: 129.82462
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13463,7 +13469,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2888.4456
     y: 214.69315
-    width: 157.61906
+    width: 150.87726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14483,7 +14489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 535
   indentLevel: 0
-  storyText: SOME FF
+  storyText: USB port stands for Universal...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14583,8 +14589,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2415.7202
-    y: 120.417915
+    x: 2409.4702
+    y: 107.917915
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14636,7 +14642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2599.3616
     y: 144.06013
-    width: 146.19049
+    width: 142.10532
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16310,7 +16316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1763.1433
     y: 671.2578
-    width: 150.00002
+    width: 143.85971
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16591,7 +16597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 443
   indentLevel: 0
-  storyText: SOME FF
+  storyText: Cookies are stored client-side.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16647,7 +16653,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3086.4907
     y: 421.87866
-    width: 120.476204
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16698,7 +16704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3201.3079
     y: 372.52026
-    width: 212.85716
+    width: 203.50885
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16776,8 +16782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3150.6392
-    y: 507.41022
+    x: 3206.682
+    y: 500.81677
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -16824,9 +16830,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3171.9263
-    y: 563.795
-    width: 228.09526
+    x: 3173.0251
+    y: 562.6961
+    width: 217.54395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16881,7 +16887,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3067.6125
     y: 608.60504
-    width: 130.9524
+    width: 127.19302
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17286,8 +17292,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3013.3284
-    y: 507.49976
+    x: 2974.79
+    y: 491.49454
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -17338,7 +17344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2934.753
     y: 560.741
-    width: 157.61906
+    width: 150.87726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17771,7 +17777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 641
   indentLevel: 0
-  storyText: SOME FF
+  storyText: USB stands for Universal Serial Bus port.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -18303,7 +18309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2872.5354
     y: 382.9586
-    width: 209.04764
+    width: 201.75447
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18815,9 +18821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3198.4407
-    y: 661.1795
-    width: 153.80954
+    x: 3211.6272
+    y: 656.784
+    width: 152.63164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18827,6 +18833,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 13704310}
+  - {fileID: 13704367}
   - {fileID: 13704290}
 --- !u!114 &13704290
 MonoBehaviour:
@@ -18865,7 +18872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3216.295
     y: 714.96405
-    width: 216.66669
+    width: 208.77202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19048,7 +19055,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2925.4556
     y: 820.4191
-    width: 161.42859
+    width: 157.01761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19518,9 +19525,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2943.2566
-    y: 666.0032
-    width: 158.57144
+    x: 2927.8723
+    y: 653.91534
+    width: 156.14041
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19530,6 +19537,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 13704326}
+  - {fileID: 13704368}
   - {fileID: 13704313}
 --- !u!114 &13704313
 MonoBehaviour:
@@ -19568,7 +19576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2889.171
     y: 721.7206
-    width: 201.42859
+    width: 194.73692
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20142,7 +20150,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3267.9194
     y: 897.86475
-    width: 188.09526
+    width: 178.07025
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20596,7 +20604,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2957.43
     y: 912.4987
-    width: 161.42859
+    width: 152.63164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21365,6 +21373,114 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &13704367
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 780
+  indentLevel: 0
+  storyText: Microsoft Word is a software application.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13704368
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 779
+  indentLevel: 0
+  storyText: Microsoft Word is a software application.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13704369
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 778
+  indentLevel: 0
+  storyText: Maybe you can go to office hours later...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13704370
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 777
+  indentLevel: 0
+  storyText: You got distracted and missed the rest of the sentence.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &29547402
 GameObject:
   m_ObjectHideFlags: 0
@@ -22742,7 +22858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  text: D. Java
+  text: D. 10 mA DC
   description: 
   targetBlock: {fileID: 29547470}
   hideIfVisited: 0
@@ -23304,7 +23420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  text: C. C++
+  text: C. 35 mA DC
   description: 
   targetBlock: {fileID: 29547470}
   hideIfVisited: 0
@@ -23329,7 +23445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  text: B. LOTUS
+  text: B. 5 mA DC
   description: 
   targetBlock: {fileID: 29547454}
   hideIfVisited: 0
@@ -23354,7 +23470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  text: A. BASIC
+  text: A. 1 mA DC
   description: 
   targetBlock: {fileID: 29547470}
   hideIfVisited: 0
@@ -23379,7 +23495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: 'Which one of the following is not a computer language:'
+  storyText: What is the average threshold of perception for electric current in men?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -23406,7 +23522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  text: B. Application
+  text: B. Ohms
   description: 
   targetBlock: {fileID: 29547471}
   hideIfVisited: 0
@@ -23431,7 +23547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  text: C. Operating System
+  text: C. Amperes
   description: 
   targetBlock: {fileID: 29547456}
   hideIfVisited: 0
@@ -23456,7 +23572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  text: D. Browser
+  text: D. Watts
   description: 
   targetBlock: {fileID: 29547471}
   hideIfVisited: 0
@@ -23541,7 +23657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  text: A. Software
+  text: A. Volts
   description: 
   targetBlock: {fileID: 29547471}
   hideIfVisited: 0
@@ -23566,7 +23682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: Linux is an example of
+  storyText: Which of the following is the unit ofr current?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -23766,11 +23882,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 321.7733, y: 56.905556}
+  scrollPos: {x: 259.0193, y: -67.98749}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85
+  zoom: 0.88
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -23778,8 +23894,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 29547447}
-  selectedCommands: []
+  - {fileID: 29547471}
+  selectedCommands:
+  - {fileID: 29547465}
   variables:
   - {fileID: 29547480}
   - {fileID: 29547479}
@@ -50905,7 +51022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 13703709}
+  selectedFlowchart: {fileID: 29547482}
 --- !u!4 &686773508
 Transform:
   m_ObjectHideFlags: 1
@@ -81822,7 +81939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  text: D. Java
+  text: C. 11011
   description: 
   targetBlock: {fileID: 1515378383}
   hideIfVisited: 0
@@ -82258,7 +82375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  text: D. HTML
+  text: A. Silicon
   description: 
   targetBlock: {fileID: 1515378365}
   hideIfVisited: 0
@@ -82283,7 +82400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  text: B. IRC
+  text: C. Aluminum
   description: 
   targetBlock: {fileID: 1515378360}
   hideIfVisited: 0
@@ -82308,7 +82425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  text: C. NIH
+  text: D. Copper
   description: 
   targetBlock: {fileID: 1515378360}
   hideIfVisited: 0
@@ -82333,7 +82450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  text: A. URL
+  text: B. Silver
   description: 
   targetBlock: {fileID: 1515378360}
   hideIfVisited: 0
@@ -82358,7 +82475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: Generally, which language is used to construct World Wide Web pages
+  storyText: IC chips are usually made from
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -82385,7 +82502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  text: C. C++
+  text: B. 10011
   description: 
   targetBlock: {fileID: 1515378383}
   hideIfVisited: 0
@@ -82410,7 +82527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  text: B. LOTUS
+  text: D. 10111
   description: 
   targetBlock: {fileID: 1515378367}
   hideIfVisited: 0
@@ -82435,7 +82552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  text: A. BASIC
+  text: A. 01011
   description: 
   targetBlock: {fileID: 1515378383}
   hideIfVisited: 0
@@ -82460,7 +82577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: 'Which one of the following is not a computer language:'
+  storyText: What is 23 in binary?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -82487,7 +82604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  text: B. Application
+  text: C. Lorentz Force Law
   description: 
   targetBlock: {fileID: 1515378384}
   hideIfVisited: 0
@@ -82512,7 +82629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  text: C. Operating System
+  text: B. Ohm's Law
   description: 
   targetBlock: {fileID: 1515378369}
   hideIfVisited: 0
@@ -82537,7 +82654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  text: D. Browser
+  text: D. Ampere's Law
   description: 
   targetBlock: {fileID: 1515378384}
   hideIfVisited: 0
@@ -82574,10 +82691,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1515378375}
+  - {fileID: 1515378371}
   - {fileID: 1515378374}
   - {fileID: 1515378372}
   - {fileID: 1515378373}
-  - {fileID: 1515378371}
 --- !u!114 &1515378384
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -82605,9 +82722,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 1515378379}
   - {fileID: 1515378378}
-  - {fileID: 1515378377}
   - {fileID: 1515378376}
   - {fileID: 1515378358}
+  - {fileID: 1515378377}
 --- !u!114 &1515378385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -82622,7 +82739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  text: A. Software
+  text: A. Faraday's Law
   description: 
   targetBlock: {fileID: 1515378384}
   hideIfVisited: 0
@@ -82647,7 +82764,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: Linux is an example of
+  storyText: What is the law stating that current was directly proportional to the
+    voltage difference between two ends in a circuit?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -82708,8 +82826,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1515378386}
   - {fileID: 1515378385}
-  - {fileID: 1515378380}
   - {fileID: 1515378381}
+  - {fileID: 1515378380}
   - {fileID: 1515378382}
 --- !u!114 &1515378389
 MonoBehaviour:
@@ -82847,7 +82965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 376.766, y: 32.137943}
+  scrollPos: {x: 259.6607, y: -20.493633}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -82859,9 +82977,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1515378360}
+  - {fileID: 1515378383}
   selectedCommands:
-  - {fileID: 1515378345}
+  - {fileID: 1515378373}
   variables:
   - {fileID: 1515378393}
   - {fileID: 1515378392}
@@ -105040,7 +105158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  text: D. HTML
+  text: B. Application Software
   description: 
   targetBlock: {fileID: 1948839099}
   hideIfVisited: 0
@@ -105065,7 +105183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  text: C. NIH
+  text: D. Input Device
   description: 
   targetBlock: {fileID: 1948839140}
   hideIfVisited: 0
@@ -105090,7 +105208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  text: B. IRC
+  text: C. Processing Device
   description: 
   targetBlock: {fileID: 1948839140}
   hideIfVisited: 0
@@ -105115,7 +105233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 140
   indentLevel: 0
-  text: A. URL
+  text: A. Operating System
   description: 
   targetBlock: {fileID: 1948839140}
   hideIfVisited: 0
@@ -105140,7 +105258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 139
   indentLevel: 0
-  storyText: Generally, which language is used to construct World Wide Web pages
+  storyText: MS Word is an example of a(n)
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -105180,9 +105298,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 1948839110}
   - {fileID: 1948839109}
+  - {fileID: 1948839106}
   - {fileID: 1948839108}
   - {fileID: 1948839107}
-  - {fileID: 1948839106}
 --- !u!114 &1948839112
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -105354,7 +105472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  text: D. HTML
+  text: C. Operating System
   description: 
   targetBlock: {fileID: 1948839105}
   hideIfVisited: 0
@@ -105379,7 +105497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
-  text: C. NIH
+  text: D. Browser
   description: 
   targetBlock: {fileID: 1948839117}
   hideIfVisited: 0
@@ -105404,7 +105522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  text: B. IRC
+  text: B. Application
   description: 
   targetBlock: {fileID: 1948839117}
   hideIfVisited: 0
@@ -105429,7 +105547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  text: A. URL
+  text: A. Software
   description: 
   targetBlock: {fileID: 1948839117}
   hideIfVisited: 0
@@ -105454,7 +105572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  storyText: Generally, which language is used to construct World Wide Web pages
+  storyText: )Linux is an example of a(n
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -105482,7 +105600,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -245.1199
-    y: 358.6168
+    y: 357.39728
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -105495,8 +105613,8 @@ MonoBehaviour:
   - {fileID: 1948839122}
   - {fileID: 1948839121}
   - {fileID: 1948839120}
-  - {fileID: 1948839119}
   - {fileID: 1948839118}
+  - {fileID: 1948839119}
 --- !u!114 &1948839124
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -106391,7 +106509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  text: D. HTML
+  text: D. Universal Serial Bus port
   description: 
   targetBlock: {fileID: 1948839145}
   hideIfVisited: 0
@@ -106416,7 +106534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  text: B. IRC
+  text: B. Universal Sequential Bus port
   description: 
   targetBlock: {fileID: 1948839123}
   hideIfVisited: 0
@@ -106441,7 +106559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  text: C. NIH
+  text: C. Universal Serial BIOS port
   description: 
   targetBlock: {fileID: 1948839123}
   hideIfVisited: 0
@@ -106466,7 +106584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  text: A. URL
+  text: A. United Serial Bus port
   description: 
   targetBlock: {fileID: 1948839123}
   hideIfVisited: 0
@@ -106491,7 +106609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: Generally, which language is used to construct World Wide Web pages
+  storyText: 'USB port stands for:'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -106620,7 +106738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  text: B. Application
+  text: D. None of the abaove
   description: 
   targetBlock: {fileID: 1948839164}
   hideIfVisited: 0
@@ -106645,7 +106763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  text: C. Operating System
+  text: 'A. On the client '
   description: 
   targetBlock: {fileID: 1948839149}
   hideIfVisited: 0
@@ -106670,7 +106788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  text: D. Browser
+  text: C. In HTML
   description: 
   targetBlock: {fileID: 1948839164}
   hideIfVisited: 0
@@ -106726,7 +106844,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -244.71965
-    y: 210.31776
+    y: 209.09825
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -106755,7 +106873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  text: A. Software
+  text: B. In a web.xml
   description: 
   targetBlock: {fileID: 1948839164}
   hideIfVisited: 0
@@ -106780,7 +106898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: Linux is an example of
+  storyText: Where are cookies stored?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -106840,10 +106958,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1948839166}
-  - {fileID: 1948839165}
-  - {fileID: 1948839160}
   - {fileID: 1948839161}
+  - {fileID: 1948839165}
   - {fileID: 1948839162}
+  - {fileID: 1948839160}
 --- !u!114 &1948839169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -106980,11 +107098,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 386.47922, y: -208.9768}
+  scrollPos: {x: 775.62, y: -16.56443}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85
+  zoom: 0.46000022
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -106992,8 +107110,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1948839140}
-  selectedCommands: []
+  - {fileID: 1948839111}
+  selectedCommands:
+  - {fileID: 1948839107}
   variables:
   - {fileID: 1948839173}
   - {fileID: 1948839172}
@@ -109541,6 +109660,10 @@ GameObject:
   - component: {fileID: 2088427266}
   - component: {fileID: 2088427265}
   - component: {fileID: 2088427264}
+  - component: {fileID: 2088427914}
+  - component: {fileID: 2088427913}
+  - component: {fileID: 2088427912}
+  - component: {fileID: 2088427544}
   m_Layer: 0
   m_Name: Main_ES
   m_TagString: Untagged
@@ -109979,7 +110102,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2957.43
     y: 912.4987
-    width: 161.47542
+    width: 159.37503
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -110391,7 +110514,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3267.9194
     y: 897.86475
-    width: 186.61203
+    width: 185.4167
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -110985,7 +111108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3216.295
     y: 714.96405
-    width: 219.39891
+    width: 215.62503
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111021,7 +111144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2925.4556
     y: 820.4191
-    width: 163.66121
+    width: 160.41669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111475,7 +111598,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2889.171
     y: 721.7206
-    width: 204.09837
+    width: 201.0417
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111620,7 +111743,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3198.4407
     y: 661.1795
-    width: 154.91803
+    width: 155.20836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111630,6 +111753,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2088427322}
+  - {fileID: 2088427544}
   - {fileID: 2088427294}
 --- !u!114 &2088427327
 MonoBehaviour:
@@ -111647,7 +111771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2943.2566
     y: 666.0032
-    width: 157.10382
+    width: 157.29169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111657,6 +111781,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2088427323}
+  - {fileID: 2088427912}
   - {fileID: 2088427321}
 --- !u!114 &2088427328
 MonoBehaviour:
@@ -112174,7 +112299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2934.753
     y: 560.741
-    width: 158.19672
+    width: 155.20836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -112583,7 +112708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3171.9263
     y: 563.795
-    width: 228.14209
+    width: 227.08337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -112617,7 +112742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3067.6125
     y: 608.60504
-    width: 130.87433
+    width: 129.16669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -112645,7 +112770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 641
   indentLevel: 0
-  storyText: SOME FF
+  storyText: Permeability of free sapce is also known as the magnetic constant.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -113325,7 +113450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3201.3079
     y: 372.52026
-    width: 215.02733
+    width: 212.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -113833,7 +113958,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2872.5354
     y: 382.9586
-    width: 211.74864
+    width: 208.33336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -114091,7 +114216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3086.4907
     y: 421.87866
-    width: 122.13115
+    width: 120.83335
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -114809,7 +114934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2888.4456
     y: 214.69315
-    width: 157.10382
+    width: 158.33336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -114842,7 +114967,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3073.8145
     y: 279.83896
-    width: 134.15302
+    width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -115580,7 +115705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2717.0696
     y: -4.4133453
-    width: 180.05466
+    width: 177.08336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -115615,7 +115740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 535
   indentLevel: 0
-  storyText: SOME FF
+  storyText: Permeability of free sapce is also known as the...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -115753,7 +115878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2913.6455
     y: 53.44973
-    width: 145.08197
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116048,7 +116173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2513.2876
     y: -16.04767
-    width: 196.44809
+    width: 196.87503
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116480,7 +116605,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2599.3616
     y: 144.06013
-    width: 147.26776
+    width: 146.87503
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116538,7 +116663,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2365.2678
     y: -11.778071
-    width: 130.87433
+    width: 130.20834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116550,6 +116675,8 @@ MonoBehaviour:
   - {fileID: 2088427480}
   - {fileID: 2088427453}
   - {fileID: 2088427452}
+  - {fileID: 2088427913}
+  - {fileID: 2088427914}
   - {fileID: 2088427458}
 --- !u!114 &2088427482
 MonoBehaviour:
@@ -117290,7 +117417,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1962.6643
     y: 966.61444
-    width: 220.4918
+    width: 219.7917
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -117442,7 +117569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2255.467
     y: 75.62224
-    width: 136.3388
+    width: 135.41669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118007,7 +118134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1960.3824
     y: 674.57245
-    width: 174.59018
+    width: 173.95836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118286,7 +118413,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1763.1433
     y: 671.2578
-    width: 150.54645
+    width: 151.04169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118343,7 +118470,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 443
   indentLevel: 0
-  storyText: SOME FF
+  storyText: The average threshold of perception of an electric current in men is
+    5mA.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -118399,7 +118527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1891.1444
     y: 764.65625
-    width: 139.6175
+    width: 138.54169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118434,6 +118562,33 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &2088427544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088427263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 757
+  indentLevel: 0
+  storyText: The official base unit for measuring electric current is Ampere.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2088427545
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -118543,7 +118698,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1791.6902
-    y: 587.85236
+    y: 589.41486
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -118730,7 +118885,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1841.2355
     y: 448.2174
-    width: 150.54645
+    width: 148.95834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -119155,7 +119310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1971.1588
     y: 376.81995
-    width: 169.12569
+    width: 166.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -119542,7 +119697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1648.8569
     y: 384.31927
-    width: 207.37706
+    width: 205.20836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -119975,7 +120130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1166.0852
     y: 750.4096
-    width: 165.847
+    width: 162.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -120351,7 +120506,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1797.2719
     y: 247.39587
-    width: 141.80328
+    width: 140.62502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -120492,7 +120647,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1779.9471
     y: 168.24333
-    width: 170.21858
+    width: 167.70836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -120943,7 +121098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1817.481
     y: 45.88081
-    width: 165.847
+    width: 162.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -121815,7 +121970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1534.5492
     y: 556.3148
-    width: 169.12569
+    width: 166.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -121901,7 +122056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 322
   indentLevel: 0
-  storyText: SOME FACT
+  storyText: 10111 is the binary representation of the decimal number 23.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -122202,7 +122357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1385.6404
     y: 982.00604
-    width: 142.89618
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -122688,7 +122843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1198.7235
     y: 938.5044
-    width: 168.03279
+    width: 166.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -122789,7 +122944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1528.697
     y: 881.6088
-    width: 126.50274
+    width: 127.08335
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -122819,7 +122974,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1206.5114
     y: 873.77545
-    width: 145.08197
+    width: 146.87503
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -123353,7 +123508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1516.3569
     y: 754.6318
-    width: 161.47542
+    width: 159.37503
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -124017,7 +124172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1350.183
     y: 636.05304
-    width: 134.15302
+    width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -124791,7 +124946,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: SOME FACT
+  storyText: Ohm's law states that direct current flowing in a conductor is directly
+    proportional to the potential difference between twon ends of a circuit.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -125581,7 +125737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1194.7151
     y: 483.55487
-    width: 145.08197
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -125756,7 +125912,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1022.5414
     y: 428.36142
-    width: 137.4317
+    width: 135.41669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -126462,7 +126618,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 690.29474
     y: 526.1976
-    width: 156.01093
+    width: 154.16669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -126493,7 +126649,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1180.4341
     y: 381.02933
-    width: 136.3388
+    width: 135.41669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -128015,7 +128171,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.99615
     y: 261.21036
-    width: 126.50274
+    width: 123.95835
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -128293,7 +128449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 504.89264
     y: -7.755068
-    width: 137.4317
+    width: 134.37502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -128936,7 +129092,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1017.21265
     y: 71.5027
-    width: 134.15302
+    width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129036,7 +129192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 721.57837
     y: -1.8281784
-    width: 149.45355
+    width: 148.95834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129252,7 +129408,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 560.0508
     y: 84.00157
-    width: 145.08197
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129278,7 +129434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Statics and Dynamics are essential.
+  storyText: IC chips for computers are usually made out of silicon.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -129571,7 +129727,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.55167
     y: 82.75501
-    width: 136.3388
+    width: 135.41669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129655,11 +129811,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 139.03864, y: 149.61656}
+  scrollPos: {x: -2959.0664, y: -598.2812}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 475
-  zoom: 0.60999995
+  zoom: 0.63999987
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -129667,7 +129823,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2088427909}
+  - {fileID: 2088427277}
   selectedCommands: []
   variables:
   - {fileID: 2088427869}
@@ -129700,6 +129856,87 @@ Transform:
   m_Father: {fileID: 511973178}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2088427912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088427263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 756
+  indentLevel: 0
+  storyText: The official base unit for measuring electric current is Ampere.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2088427913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088427263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 755
+  indentLevel: 0
+  storyText: You missed the end of your professor's sentence.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2088427914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088427263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 0
+  storyText: Maybe you can go to their office hour later...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2095894213
 GameObject:
   m_ObjectHideFlags: 0

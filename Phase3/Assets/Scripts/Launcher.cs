@@ -46,7 +46,7 @@ namespace Com.NoRestForTheGooglers.Stressful
         /// </summary>
         void Start()
         {
-            Connect();
+            
         }
 
         #endregion

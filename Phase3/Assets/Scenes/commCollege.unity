@@ -165,8 +165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82
-    y: 78
+    x: 59
+    y: 81
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -203,8 +203,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 13703712}
-  selectedCommands:
-  - {fileID: 13703713}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0

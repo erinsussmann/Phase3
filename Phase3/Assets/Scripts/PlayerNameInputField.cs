@@ -34,9 +34,9 @@ namespace Com.NoRestForTheGooglers.Stressful
             InputField _inputField = this.GetComponent<InputField>();
             if (_inputField != null)
             {
-                if (PlayerPrefs.HasKey(playerNamePerfKey))
+                if (PlayerPrefs.HasKey(playerNamePrefKey))
                 {
-                    defaultName = PlayerPrefs.GetString(playerNamePerfKey);
+                    defaultName = PlayerPrefs.GetString(playerNamePrefKey);
                     _inputField.text = defaultName;
                 }
             }

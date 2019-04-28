@@ -30,4 +30,4 @@ MonoBehaviour:
   RunInBackground: 1
   RpcList: []
   DisableAutoOpenWizard: 1
-  ShowSettings: 1
+  ShowSettings: 0

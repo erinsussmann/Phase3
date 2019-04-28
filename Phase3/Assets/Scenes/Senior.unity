@@ -9750,7 +9750,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 
+    stringVal: finalScore
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1939191770

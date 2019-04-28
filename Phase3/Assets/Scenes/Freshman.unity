@@ -894,7 +894,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 13704089}
+  - {fileID: 13704123}
   selectedCommands: []
   variables:
   - {fileID: 13703753}
@@ -13750,7 +13750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 561
   indentLevel: 0
-  storyText: seminar
+  storyText: 'Welcome to the seminar! By attending this event, your GPA increases
+    by 0.25 '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -24556,6 +24557,7 @@ Transform:
   - {fileID: 1121936729}
   - {fileID: 443677666}
   - {fileID: 2082065033}
+  - {fileID: 1744276589}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25181,7 +25183,6 @@ Transform:
   - {fileID: 219045157}
   - {fileID: 1598726998}
   - {fileID: 96541741}
-  - {fileID: 1744276589}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30794,6 +30795,7 @@ GameObject:
   - component: {fileID: 663030055}
   - component: {fileID: 663029687}
   - component: {fileID: 663029571}
+  - component: {fileID: 663030057}
   m_Layer: 0
   m_Name: Main_MP
   m_TagString: Untagged
@@ -36154,7 +36156,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   fadeOut: 1
-  targetView: {fileID: 251340328}
+  targetView: {fileID: 1744276590}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -36964,6 +36966,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 663029572}
+  - {fileID: 663030057}
   - {fileID: 663029560}
 --- !u!114 &663029599
 MonoBehaviour:
@@ -50953,9 +50956,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 663029600}
+  - {fileID: 663029598}
   selectedCommands:
-  - {fileID: 663029576}
+  - {fileID: 663030057}
   variables:
   - {fileID: 663030012}
   - {fileID: 663030009}
@@ -51029,6 +51032,34 @@ MonoBehaviour:
   itemId: 757
   indentLevel: 0
   storyText: You missed the end of your professor's sentence.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &663030057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663029406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  indentLevel: 0
+  storyText: 'Welcome to the seminar! By attending this event, your GPA increases
+    by 0.25 '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -58792,6 +58823,7 @@ GameObject:
   - component: {fileID: 1008971889}
   - component: {fileID: 1008971522}
   - component: {fileID: 1008971406}
+  - component: {fileID: 1008971891}
   m_Layer: 0
   m_Name: Main_AC
   m_TagString: Untagged
@@ -64976,6 +65008,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1008971407}
+  - {fileID: 1008971891}
   - {fileID: 1008971395}
 --- !u!114 &1008971434
 MonoBehaviour:
@@ -78964,10 +78997,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1008971459}
-  selectedCommands:
-  - {fileID: 1008971889}
-  - {fileID: 1008971890}
+  - {fileID: 1008971433}
+  selectedCommands: []
   variables:
   - {fileID: 1008971847}
   - {fileID: 1008971844}
@@ -79027,6 +79058,34 @@ MonoBehaviour:
   itemId: 754
   indentLevel: 0
   storyText: Maybe you can go to their office hour later...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1008971891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008971240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 0
+  storyText: 'Welcome to the seminar! By attending this event, your GPA increases
+    by 0.25 '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -81053,85 +81112,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1279655235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1279655236}
-  - component: {fileID: 1279655237}
-  m_Layer: 0
-  m_Name: seminar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1279655236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279655235}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.054998398, y: -0.00799942, z: 0}
-  m_LocalScale: {x: 2.5653796, y: 2.423647, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1744276589}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1279655237
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279655235}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5085b19ef36307d41b7cea7405a0ed12, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 2.57}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1374057928
 GameObject:
   m_ObjectHideFlags: 0
@@ -81654,6 +81634,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470228416}
   m_CullTransparentMesh: 0
+--- !u!1 &1485235119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485235121}
+  - component: {fileID: 1485235120}
+  m_Layer: 0
+  m_Name: seminar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1485235120
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485235119}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 5085b19ef36307d41b7cea7405a0ed12, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5, y: 2.57}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1485235121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485235119}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.10000038, y: 0.10000229, z: 0}
+  m_LocalScale: {x: 2.9382, y: 3.2186003, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1744276589}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515378342
 GameObject:
   m_ObjectHideFlags: 0
@@ -84074,6 +84133,7 @@ GameObject:
   - component: {fileID: 1637767735}
   - component: {fileID: 1637767368}
   - component: {fileID: 1637767252}
+  - component: {fileID: 1637767737}
   m_Layer: 0
   m_Name: Main_IL
   m_TagString: Untagged
@@ -89447,7 +89507,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   fadeOut: 1
-  targetView: {fileID: 251340328}
+  targetView: {fileID: 1744276590}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -90257,6 +90317,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1637767253}
+  - {fileID: 1637767737}
   - {fileID: 1637767241}
 --- !u!114 &1637767280
 MonoBehaviour:
@@ -104246,10 +104307,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1637767305}
-  selectedCommands:
-  - {fileID: 1637767736}
-  - {fileID: 1637767735}
+  - {fileID: 1637767279}
+  selectedCommands: []
   variables:
   - {fileID: 1637767693}
   - {fileID: 1637767690}
@@ -104309,6 +104368,34 @@ MonoBehaviour:
   itemId: 756
   indentLevel: 0
   storyText: You missed the end of your professor's sentence.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1637767737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637767086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  indentLevel: 0
+  storyText: 'Welcome to the seminar! By attending this event, your GPA increases
+    by 0.25 '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -104596,12 +104683,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744276588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.230469, y: 17.078293, z: 0.057022836}
+  m_LocalPosition: {x: 8.303551, y: 14.748613, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1279655236}
-  m_Father: {fileID: 366238081}
-  m_RootOrder: 24
+  - {fileID: 1485235121}
+  m_Father: {fileID: 210523398}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1744276590
 MonoBehaviour:
@@ -110064,6 +110151,7 @@ GameObject:
   - component: {fileID: 2088427913}
   - component: {fileID: 2088427912}
   - component: {fileID: 2088427544}
+  - component: {fileID: 2088427428}
   m_Layer: 0
   m_Name: Main_ES
   m_TagString: Untagged
@@ -110502,7 +110590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2957.43
     y: 912.4987
-    width: 150.00003
+    width: 151.72415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -110914,7 +111002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3267.9194
     y: 897.86475
-    width: 171.87503
+    width: 175.86209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111508,7 +111596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3216.295
     y: 714.96405
-    width: 196.87503
+    width: 203.4483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111544,7 +111632,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2925.4556
     y: 820.4191
-    width: 150.00003
+    width: 151.72415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -111998,7 +112086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2889.171
     y: 721.7206
-    width: 184.37503
+    width: 189.6552
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -112143,7 +112231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3198.4407
     y: 661.1795
-    width: 142.18753
+    width: 146.55173
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -112171,7 +112259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2943.2566
     y: 666.0032
-    width: 146.87503
+    width: 148.27588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -112699,7 +112787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2928.503
     y: 566.991
-    width: 145.31253
+    width: 148.27588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -113108,7 +113196,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3171.9263
     y: 563.795
-    width: 207.81253
+    width: 213.79312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -113142,7 +113230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3067.6125
     y: 608.60504
-    width: 120
+    width: 124.13794
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -113850,7 +113938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3201.3079
     y: 372.52026
-    width: 195.31253
+    width: 200.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -114358,7 +114446,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2872.5354
     y: 382.9586
-    width: 190.62503
+    width: 196.55174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -115334,7 +115422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2888.4456
     y: 214.69315
-    width: 146.87503
+    width: 150.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -115367,7 +115455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3073.8145
     y: 279.83896
-    width: 121.875015
+    width: 129.31036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -115380,6 +115468,34 @@ MonoBehaviour:
   - {fileID: 2088427409}
   - {fileID: 2088427402}
   - {fileID: 2088427401}
+--- !u!114 &2088427428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088427263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 0
+  storyText: 'Welcome to the seminar! By attending this event, your GPA increases
+    by 0.25 '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2088427429
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -116078,7 +116194,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2717.0696
     y: -4.4133453
-    width: 164.06253
+    width: 168.96553
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116206,6 +116322,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2088427429}
+  - {fileID: 2088427428}
   - {fileID: 2088427417}
 --- !u!114 &2088427456
 MonoBehaviour:
@@ -116250,7 +116367,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2913.6455
     y: 53.44973
-    width: 131.25002
+    width: 137.93105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116545,7 +116662,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2513.2876
     y: -16.04767
-    width: 179.68753
+    width: 184.48277
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -116977,7 +117094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2599.3616
     y: 144.06013
-    width: 135.93752
+    width: 139.65518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -117035,7 +117152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2365.2678
     y: -11.778071
-    width: 121.875015
+    width: 122.4138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -117789,7 +117906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1962.6643
     y: 966.61444
-    width: 201.56253
+    width: 206.89658
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -117941,7 +118058,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2255.467
     y: 75.62224
-    width: 125.000015
+    width: 131.03448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118506,7 +118623,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1960.3824
     y: 674.57245
-    width: 162.50003
+    width: 165.51726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118785,7 +118902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1763.1433
     y: 671.2578
-    width: 140.62502
+    width: 143.10345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -118899,7 +119016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1891.1444
     y: 764.65625
-    width: 126.562515
+    width: 134.48277
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -119257,7 +119374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1841.2355
     y: 448.2174
-    width: 135.93752
+    width: 143.10345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -119682,7 +119799,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1971.1588
     y: 376.81995
-    width: 156.25003
+    width: 158.6207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -120069,7 +120186,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1648.8569
     y: 384.31927
-    width: 189.06253
+    width: 193.10347
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -120502,7 +120619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1166.0852
     y: 750.4096
-    width: 151.56253
+    width: 155.17242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -120878,7 +120995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1797.2719
     y: 247.39587
-    width: 129.68752
+    width: 136.20691
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -121019,7 +121136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1779.9471
     y: 168.24333
-    width: 153.12503
+    width: 160.34485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -121470,7 +121587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1817.481
     y: 45.88081
-    width: 151.56253
+    width: 155.17242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -122342,7 +122459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1534.5492
     y: 556.3148
-    width: 156.25003
+    width: 158.6207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -122729,7 +122846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1385.6404
     y: 982.00604
-    width: 134.37502
+    width: 136.20691
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -123215,7 +123332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1198.7235
     y: 938.5044
-    width: 156.25003
+    width: 158.6207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -123316,7 +123433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1528.697
     y: 881.6088
-    width: 120
+    width: 120.68967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -123346,7 +123463,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1206.5114
     y: 873.77545
-    width: 137.50002
+    width: 139.65518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -123880,7 +123997,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1516.3569
     y: 754.6318
-    width: 150.00003
+    width: 151.72415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -124544,7 +124661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1350.183
     y: 636.05304
-    width: 121.875015
+    width: 129.31036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -126109,7 +126226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1194.7151
     y: 483.55487
-    width: 131.25002
+    width: 137.93105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -126284,7 +126401,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1022.5414
     y: 428.36142
-    width: 125.000015
+    width: 127.58622
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -126990,7 +127107,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 690.29474
     y: 526.1976
-    width: 142.18753
+    width: 146.55173
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -127021,7 +127138,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1180.4341
     y: 381.02933
-    width: 125.000015
+    width: 131.03448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -128821,7 +128938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 504.89264
     y: -7.755068
-    width: 126.562515
+    width: 125.862076
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129464,7 +129581,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1017.21265
     y: 71.5027
-    width: 121.875015
+    width: 129.31036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129564,7 +129681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 721.57837
     y: -1.8281784
-    width: 137.50002
+    width: 139.65518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -129780,7 +129897,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 560.0508
     y: 84.00157
-    width: 131.25002
+    width: 137.93105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -130099,7 +130216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.55167
     y: 82.75501
-    width: 125.000015
+    width: 131.03448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -130183,18 +130300,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2545.004, y: -131.09369}
+  scrollPos: {x: -2504.2358, y: 37.57037}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 294
-  zoom: 0.63999987
+  zoom: 0.5799999
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 2088427455}
   selectedCommands: []
   variables:
   - {fileID: 2088427869}

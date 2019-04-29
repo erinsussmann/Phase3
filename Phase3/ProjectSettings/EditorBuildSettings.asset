@@ -5,37 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SAT.unity
-    guid: 827887b051fa280408965b9882c8ff99
+    path: Assets/Scenes/Launcher.unity
+    guid: b313df6e13dddd04bbde5d26c3e7dfcd
   - enabled: 1
-    path: Assets/Scenes/Registration.unity
-    guid: 6484e49318463cc47a4a0410db0b4e55
+    path: Assets/Scenes/Room for 1.unity
+    guid: 34cf81bc5f072454389d9d30b03c5ca5
   - enabled: 1
-    path: Assets/Scenes/commCollege.unity
-    guid: ed5698d69e0116c46b8c38d5e5af5654
+    path: Assets/Scenes/Room for 2.unity
+    guid: 12fa9c41e6836ff448088ad4516d0469
   - enabled: 1
-    path: Assets/Scenes/engMatchPT.unity
-    guid: 8e618f3fbd1264348ad91c9abcf4e46f
+    path: Assets/Scenes/Room for 3.unity
+    guid: 483490f29b8e0cb4e90d46c928031460
   - enabled: 1
-    path: Assets/Scenes/Freshman.unity
-    guid: 55a4ab4576e9c76489a7becb3ac2eb75
-  - enabled: 1
-    path: Assets/Scenes/LoginAndReg.unity
-    guid: a13885f9db910044bbdecde96d9b0d3f
-  - enabled: 1
-    path: Assets/Scenes/Sophomore.unity
-    guid: eb8640956f83eb643baff18df11ba2f4
-  - enabled: 1
-    path: Assets/Scenes/Start.unity
-    guid: 98d4a0ae6acf5fc46b13ac01d5cd81ae
-  - enabled: 1
-    path: Assets/Scenes/Senior.unity
-    guid: 1fdc0ea6b33a8934784927677e696646
+    path: Assets/Scenes/Room for 4.unity
+    guid: c3286f6e4959ea14fb241f5a0c1b6b19
   m_configObjects: {}

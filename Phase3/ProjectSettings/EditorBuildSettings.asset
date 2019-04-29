@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SAT.unity
     guid: 827887b051fa280408965b9882c8ff99
+  - enabled: 1
+    path: Assets/Scenes/Transition_from_VG.unity
+    guid: b4b6e2dd8e0e51c4f9a592fea03e4f7e
   m_configObjects: {}

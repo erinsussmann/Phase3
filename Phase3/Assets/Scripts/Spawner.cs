@@ -2,29 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
-{
-    public GameObject obstacle;
-    public float timeBtwSpawn;
-    public float startTimeBtwSpawn;
-    public float decreaseTime;
-    public float minTime = 0.65f;
+public class Spawner : MonoBehaviour {
+
+    private float timeBtwSpawns;
+    public float startTimeBtwSpawns;
+    public float timeDecrease;
+    public float minTime;
+
+    public GameObject[] obstacleTemplate;
+
+    private void Start()
+    {
+        timeBtwSpawns = startTimeBtwSpawns;
+    }
 
     private void Update()
     {
-        if(timeBtwSpawn <= 0)
+        if (timeBtwSpawns <= 0)
         {
-            Instantiate(obstacle, transform.position, Quaternion.identity);
-            timeBtwSpawn = startTimeBtwSpawn;
-            if (startTimeBtwSpawn > minTime)
-            {
-                startTimeBtwSpawn -= decreaseTime;
+            int rand = Random.Range(0, obstacleTemplate.Length);
+            Instantiate(obstacleTemplate[rand], transform.position, Quaternion.identity);
+            timeBtwSpawns = startTimeBtwSpawns;
+            if (startTimeBtwSpawns > minTime) {
+                startTimeBtwSpawns -= timeDecrease;
             }
-            
         }
-        else
-        {
-            timeBtwSpawn -= Time.deltaTime;
+        else {
+            timeBtwSpawns -= Time.deltaTime;
         }
     }
+
 }

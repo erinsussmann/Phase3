@@ -148,7 +148,7 @@ public class database : MonoBehaviour
         {
             if (w.text == "login-SUCCESS")
             {
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene(1); //changes 7 to 1
             }
             else
             {
@@ -168,7 +168,7 @@ public class database : MonoBehaviour
         if(w.error == null)
         {
             message += w.text;
-			SceneManager.LoadScene(7);
+			SceneManager.LoadScene(1); //changes 7 to 1
         }
         else
         {

@@ -834,12 +834,6 @@ GameObject:
   - component: {fileID: 1939191794}
   - component: {fileID: 1939191793}
   - component: {fileID: 1939191792}
-  - component: {fileID: 1939191791}
-  - component: {fileID: 1939191790}
-  - component: {fileID: 1939191789}
-  - component: {fileID: 1939191788}
-  - component: {fileID: 1939191787}
-  - component: {fileID: 1939191786}
   - component: {fileID: 1939191785}
   - component: {fileID: 1939191784}
   - component: {fileID: 1939191783}
@@ -915,6 +909,8 @@ GameObject:
   - component: {fileID: 1939191821}
   - component: {fileID: 1939191807}
   - component: {fileID: 1939191822}
+  - component: {fileID: 1939191824}
+  - component: {fileID: 1939191823}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -980,11 +976,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 570.72797, y: -647.22516}
+  scrollPos: {x: 538.244, y: -777.59406}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 365
-  zoom: 0.54999995
+  zoom: 0.6099999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1004,6 +1000,7 @@ MonoBehaviour:
   - {fileID: 1939191819}
   - {fileID: 1939191817}
   - {fileID: 1939191818}
+  - {fileID: 1939191823}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1213,7 +1210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -89.26068
     y: 473.2994
-    width: 161.51517
+    width: 159.28964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1787,8 +1784,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -244.28064
-    y: 299.8472
+    x: -253.89603
+    y: 297.92413
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1817,8 +1814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -244.46754
-    y: 223.17493
+    x: -250.23679
+    y: 215.4826
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1921,8 +1918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -240.39526
-    y: 143.13979
+    x: -250.01067
+    y: 139.29361
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2603,7 +2600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.69778
     y: 998.9474
-    width: 146.9697
+    width: 146.17488
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4094,164 +4091,6 @@ MonoBehaviour:
   - {fileID: 1939191782}
   - {fileID: 1939191781}
   - {fileID: 1939191780}
---- !u!114 &1939191786
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 124
-  indentLevel: 0
-  text: D. is a hobby
-  description: 
-  targetBlock: {fileID: 1939191717}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1939191787
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 123
-  indentLevel: 0
-  text: C. which is a hobby
-  description: 
-  targetBlock: {fileID: 1939191710}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1939191788
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 122
-  indentLevel: 0
-  text: B. is a hobby because it is
-  description: 
-  targetBlock: {fileID: 1939191710}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1939191789
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 121
-  indentLevel: 0
-  text: A. being a hobby that is
-  description: 
-  targetBlock: {fileID: 1939191710}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1939191790
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 120
-  indentLevel: 0
-  storyText: Stamp collection {b}being a hobby that is {/b} sometimes used in the
-    schools to teach economics and social studies.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1939191791
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939191674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -482.89526
-    y: 180.63979
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 172
-  blockName: Q1 (Copy)
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1939191790}
-  - {fileID: 1939191789}
-  - {fileID: 1939191788}
-  - {fileID: 1939191787}
-  - {fileID: 1939191786}
 --- !u!114 &1939191792
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4314,9 +4153,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -77.95943
+    x: -75.63384
     y: 566.5537
-    width: 148.18182
+    width: 147.26778
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5093,6 +4932,7 @@ MonoBehaviour:
   - {fileID: 1939191799}
   - {fileID: 1939191798}
   - {fileID: 1939191822}
+  - {fileID: 1939191824}
   - {fileID: 1939191807}
 --- !u!114 &1939191817
 MonoBehaviour:
@@ -5203,3 +5043,34 @@ MonoBehaviour:
   indentLevel: 0
   key: credits
   variable: {fileID: 1939191818}
+--- !u!114 &1939191823
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: playedGame
+  value: 0
+--- !u!114 &1939191824
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939191674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 210
+  indentLevel: 0
+  key: played
+  variable: {fileID: 1939191823}

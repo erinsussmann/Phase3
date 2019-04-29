@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Restart : MonoBehaviour {
 
-
-	void Update () {
-        if (Input.GetKeyDown(KeyCode.R)){
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    void Update () {
+        if (Input.GetKeyDown(KeyCode.C)){
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //If want restart, uncomment this and change .C to .R
+            //flowchart.ExecuteBlock("Start");
+            SceneManager.LoadScene(15);
         }
 	}
 }

@@ -4,30 +4,44 @@ using UnityEngine;
 
 public class studentMove : MonoBehaviour
 {
-    public float speed;             //Floating point variable to store the player's movement speed.
+    public float speed = 0.4f;  //Floating point variable to store the player's movement speed.
+    Vector2 dest = Vector2.zero;
 
-    private Rigidbody2D rb2d;       //Store a reference to the Rigidbody2D component required to use 2D Physics.
 
     // Use this for initialization
     void Start()
     {
         //Get and store a reference to the Rigidbody2D component so that we can access it.
-        rb2d = GetComponent<Rigidbody2D>();
+        dest = transform.position;
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
-        //Store the current horizontal input in the float moveHorizontal.
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        // Move closer to Destination
+        Vector2 p = Vector2.MoveTowards(transform.position, dest, speed);
+        GetComponent<Rigidbody2D>().MovePosition(p);
 
-        //Store the current vertical input in the float moveVertical.
-        float moveVertical = Input.GetAxis("Vertical");
-
-        //Use the two store floats to create a new Vector2 variable movement.
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
-
-        //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
-        rb2d.AddForce(movement * speed);
+        // Check for Input if not moving
+        if ((Vector2)transform.position == dest)
+        {
+            if (Input.GetKey(KeyCode.UpArrow) && valid(Vector2.up))
+                dest = (Vector2)transform.position + Vector2.up;
+            if (Input.GetKey(KeyCode.RightArrow) && valid(Vector2.right))
+                dest = (Vector2)transform.position + Vector2.right;
+            if (Input.GetKey(KeyCode.DownArrow) && valid(-Vector2.up))
+                dest = (Vector2)transform.position - Vector2.up;
+            if (Input.GetKey(KeyCode.LeftArrow) && valid(-Vector2.right))
+                dest = (Vector2)transform.position - Vector2.right;
+        }
     }
+
+    bool valid(Vector2 dir)
+    {
+        Vector2 pos = transform.position;
+        RaycastHit2D hit = Physics2D.Linecast(pos + dir, pos);
+        return (hit.collider == GetComponent<Collider2D>());
+        
+    }
+    
 }

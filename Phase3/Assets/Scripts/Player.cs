@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 
     private Vector2 targetPos;
 
-    public int health;
+    public int health = 3;
 
     private void Update()
     {

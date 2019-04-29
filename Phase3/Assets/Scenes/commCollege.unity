@@ -126,6 +126,10 @@ GameObject:
   - component: {fileID: 13703707}
   - component: {fileID: 13703712}
   - component: {fileID: 13703711}
+  - component: {fileID: 13703716}
+  - component: {fileID: 13703715}
+  - component: {fileID: 13703714}
+  - component: {fileID: 13703713}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -161,8 +165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82
-    y: 78
+    x: 59
+    y: 81
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -171,7 +175,8 @@ MonoBehaviour:
   blockName: Start
   description: 
   eventHandler: {fileID: 13703707}
-  commandList: []
+  commandList:
+  - {fileID: 13703716}
 --- !u!114 &13703709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 17, y: -37}
+  scrollPos: {x: 184, y: 47}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -198,8 +203,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 13703712}
-  selectedCommands:
-  - {fileID: 13703711}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -227,7 +231,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &13703711
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -239,7 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Welcome to community college.
+  storyText: Welcome to Community College.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -254,7 +258,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &13703712
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -278,6 +282,105 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 13703711}
+  - {fileID: 13703715}
+  - {fileID: 13703714}
+  - {fileID: 13703713}
+--- !u!114 &13703713
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Junior
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &13703714
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: After two years of hardwork, you are ready to transfer to Hartford! Congratulations,
+    and good luck!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13703715
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: 'Here, you take general education classes to get accpeted to the University
+    of Hartford in your Junior Year. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13703716
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 13703712}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &210523397
 GameObject:
   m_ObjectHideFlags: 0

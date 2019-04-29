@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 13703713}
   - component: {fileID: 13703712}
   - component: {fileID: 13703711}
-  - component: {fileID: 13703717}
   - component: {fileID: 13703720}
   - component: {fileID: 13703719}
   - component: {fileID: 13703718}
@@ -144,6 +143,7 @@ GameObject:
   - component: {fileID: 13703722}
   - component: {fileID: 13703721}
   - component: {fileID: 13703730}
+  - component: {fileID: 13703717}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -193,7 +193,6 @@ MonoBehaviour:
   - {fileID: 13703716}
   - {fileID: 13703711}
   - {fileID: 13703712}
-  - {fileID: 13703717}
   - {fileID: 13703729}
   - {fileID: 13703726}
   - {fileID: 13703728}
@@ -203,6 +202,7 @@ MonoBehaviour:
   - {fileID: 13703722}
   - {fileID: 13703721}
   - {fileID: 13703730}
+  - {fileID: 13703717}
 --- !u!114 &13703709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 13703708}
   selectedCommands:
-  - {fileID: 13703729}
+  - {fileID: 13703717}
   variables:
   - {fileID: 13703715}
   - {fileID: 13703714}
@@ -358,24 +358,31 @@ MonoBehaviour:
   variable: {fileID: 13703715}
 --- !u!114 &13703717
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13703706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71f455683d4ba4405b8dbba457159620, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 4
+  itemId: 14
   indentLevel: 0
-  luaEnvironment: {fileID: 0}
-  luaFile: {fileID: 0}
-  luaScript: 
-  runAsCoroutine: 1
-  waitUntilFinished: 1
-  returnVariable: {fileID: 0}
+  storyText: Congratualtions on completing the STRESSFUL life of a college student.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &13703718
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -871,7 +878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Your final score is {$total}
+  storyText: Your final score is 97
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

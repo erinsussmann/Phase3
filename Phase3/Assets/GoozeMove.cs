@@ -7,6 +7,7 @@ public class GoozeMove : MonoBehaviour
 
     public Transform[] waypoints;
     int cur = 0;
+
     public float speed = 0.3f;
 
 
